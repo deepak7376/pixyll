@@ -1,12 +1,14 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Deepak Yadav
+email:       dky.united@gmail.com
+author:      Deepak Yadav
+description: "Just a beginning of my writing.."
 baseurl:     ""
-url:         "https://pixyll.com"
+url:         "https://deepak7376.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
+ - projects.md
+ - resume.md
  - about.md
  - contact.html
 
@@ -14,22 +16,22 @@ header_pages:
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: "UA-58263416-1"
 google_tag_manager:
 # Bing services
 bing_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
-enable_mathjax: false
-extended_fonts: false
-enable_anchorjs: false
+animated:             true
+show_related_posts:   true
+show_post_footers:    true
+show_social_icons:    true
+ajaxify_contact_form: true
+enable_mathjax: true
+extended_fonts: true
+enable_anchorjs: true
 # Preview image for social media aka og:image and twitter:image
-post_preview_image: false
+post_preview_image: true
 
 # Facebook Page integration
 # (for instant articles and other stuff)
@@ -38,7 +40,7 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: deepak7376
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -47,17 +49,17 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: deepak7376
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: ydeepak92
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: dky7376
 angellist_username:
-medium_id:
+medium_id: deepakec1031
 bitcoin_url:
 paypal_url:
 flattr_button:
@@ -65,12 +67,12 @@ telegram_username:
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
